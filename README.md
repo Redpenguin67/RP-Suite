@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.jpg" alt="Red Penguin OSINT Suite: rp-igloo, VARCO, F.A.L.C.O., L.I.N.C.E." width="100%">
+<img src="assets/banner.jpg" alt="Red Penguin OSINT Suite: IGLOO, VARCO, FALCO, LINCE" width="100%">
 
 # Red Penguin OSINT Suite
 
@@ -27,15 +27,15 @@ Tre programmi di analisi e un custode delle chiavi, con lo stesso tema e rapport
 
 | | Programma | A cosa serve | Versione |
 |:--:|---|---|:--:|
-| <img src="assets/logo_igloo.png" alt="rp-igloo" width="64"> | **rp-igloo** | Custodisce in un unico posto le chiavi API di AI e servizi per tutta la suite, e le prova con un clic. | ![](https://img.shields.io/badge/v-1.2.1-c0392b) |
+| <img src="assets/logo_igloo.png" alt="IGLOO" width="64"> | **IGLOO** | Custodisce in un unico posto le chiavi API di AI e servizi per tutta la suite, e le prova con un clic. | ![](https://img.shields.io/badge/v-1.2.3-c0392b) |
 
 ### I programmi di analisi
 
 | | Programma | Risponde alla domanda | Versione |
 |:--:|---|---|:--:|
-| <img src="assets/logo_lince.png" alt="L.I.N.C.E." width="64"> | **L.I.N.C.E.**<br><sub>Localizza Insidie Nascoste in Contenuti Elettronici</sub> | Questa mail, questo file, questa foto o questo link nascondono una trappola? | ![](https://img.shields.io/badge/v-3.1.6-c0392b) |
-| <img src="assets/logo_falco.png" alt="F.A.L.C.O." width="64"> | **F.A.L.C.O.**<br><sub>Forensic Analysis & Live Collection of OSINT</sub> | Quanto sono esposte le caselle e il dominio dell'azienda? | ![](https://img.shields.io/badge/v-1.7.2-c0392b) |
-| <img src="assets/logo_varco.png" alt="VARCO" width="64"> | **VARCO**<br><sub>Verifica Attiva, Ricognizione e Classificazione Obiettivi</sub> | Quali servizi sono davvero raggiungibili sui server? | ![](https://img.shields.io/badge/v-1.0.4-c0392b) |
+| <img src="assets/logo_lince.png" alt="LINCE" width="64"> | **LINCE**<br><sub>Localizza Insidie Nascoste in Contenuti Elettronici</sub> | Questa mail, questo file, questa foto o questo link nascondono una trappola? | ![](https://img.shields.io/badge/v-3.1.8-c0392b) |
+| <img src="assets/logo_falco.png" alt="FALCO" width="64"> | **FALCO**<br><sub>Forensic Analysis & Live Collection of OSINT</sub> | Quanto sono esposte le caselle e il dominio dell'azienda? | ![](https://img.shields.io/badge/v-1.7.4-c0392b) |
+| <img src="assets/logo_varco.png" alt="VARCO" width="64"> | **VARCO**<br><sub>Verifica Attiva, Ricognizione e Classificazione Obiettivi</sub> | Quali servizi sono davvero raggiungibili sui server? | ![](https://img.shields.io/badge/v-1.0.6-c0392b) |
 
 ---
 
@@ -43,10 +43,10 @@ Tre programmi di analisi e un custode delle chiavi, con lo stesso tema e rapport
 
 ```mermaid
 flowchart LR
-    A["🐆 <b>L.I.N.C.E.</b><br/>Un dipendente segnala<br/>una mail sospetta"] --> B["🦅 <b>F.A.L.C.O.</b><br/>Audit delle caselle<br/>aziendali"]
+    A["🐆 <b>LINCE</b><br/>Un dipendente segnala<br/>una mail sospetta"] --> B["🦅 <b>FALCO</b><br/>Audit delle caselle<br/>aziendali"]
     B --> C["🔍 <b>VARCO</b><br/>Controllo dei server<br/>esposti"]
     C --> D["📄 <b>Tre rapporti PDF</b><br/>Per chi decide<br/>e per chi interviene"]
-    K["🧊 <b>rp-igloo</b><br/>Chiavi API"] -.-> A
+    K["🧊 <b>IGLOO</b><br/>Chiavi API"] -.-> A
     K -.-> B
     K -.-> C
 ```
@@ -56,7 +56,7 @@ flowchart LR
 ## ✨ Che cosa fa ogni programma
 
 <details open>
-<summary><b>🐆 L.I.N.C.E.: mail, file, foto, cartelle e link</b></summary>
+<summary><b>🐆 LINCE: mail, file, foto, cartelle e link</b></summary>
 <br/>
 
 - 🎯 **Un solo campo:** indirizzo, messaggio `.eml`, file, foto, cartella, link o dominio, riconosciuti da soli
@@ -69,7 +69,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>🦅 F.A.L.C.O.: caselle e dominio</b></summary>
+<summary><b>🦅 FALCO: caselle e dominio</b></summary>
 <br/>
 
 - 💥 **Esposizione:** violazioni di dati da fonti gratuite, con gravità a regole fisse, log di infostealer e diffusione
@@ -93,7 +93,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>🧊 rp-igloo: le chiavi della suite</b></summary>
+<summary><b>🧊 IGLOO: le chiavi della suite</b></summary>
 <br/>
 
 - 🗝️ **Un solo archivio per computer:** le chiavi si inseriscono una volta e valgono per tutti i programmi
@@ -110,7 +110,7 @@ flowchart LR
 
 | | | | |
 |:--:|---|:--:|---|
-| 🗝️ | **Chiavi condivise:** si gestiscono solo in rp-igloo | 🌗 | **Tema giorno/notte:** una scelta valida per tutta la suite |
+| 🗝️ | **Chiavi condivise:** si gestiscono solo in IGLOO | 🌗 | **Tema giorno/notte:** una scelta valida per tutta la suite |
 | 📦 | **Pacchetti autosufficienti:** ognuno funziona anche da solo | 📤 | **Import/export dei parametri:** mai le chiavi |
 | 📚 | **Documentazione inclusa:** scheda, presentazione, manuale operativo e Credits per ogni programma | 🛑 | **Tasto Stop:** per interrompere le operazioni lunghe |
 | 🤖 | **AI di supporto:** Gemini → Groq commentano, i giudizi restano a regole fisse | 🚫 | **Mai «verde» su ciò che non è stato controllato** |
@@ -127,15 +127,32 @@ flowchart LR
 sudo apt install ./*.deb
 ```
 
-**3.** Apri **rp-igloo** e inserisci le tue chiavi: Gemini e Groq sono gratuite e servono per l'AI. Gli altri programmi le leggeranno da soli.
+Se la cartella è nella tua home, alla fine apt può scrivere «Lo scaricamento è eseguito come root, ma non in una sandbox…»: è
+solo un avviso, l'installazione è completa. Per non vederlo, copia prima i pacchetti in `/tmp` e installali da lì.
+
+**3.** Apri **IGLOO** (comando `rp-igloo`) e inserisci le tue chiavi: Gemini e Groq sono gratuite e servono per l'AI. Gli altri programmi le leggeranno da soli.
 
 > [!TIP]
-> Con rp-igloo installato trovi tutto nella categoria **Red Penguin OSINT Suite** del menu. Senza, i programmi sono in **Altro**.
+> Con IGLOO installato trovi tutto nella categoria **Red Penguin OSINT Suite** del menu. Senza, i programmi sono in **Altro**.
 
 > [!NOTE]
-> **Aggiornamento dalla versione precedente** (Red Penguin Suite, Mail Sentinel): installa insieme i quattro pacchetti nuovi. rp-igloo toglie da solo la vecchia categoria del menu e L.I.N.C.E. sostituisce Mail Sentinel mantenendone i parametri.
+> **Aggiornamento dalla versione precedente** (Red Penguin Suite, Mail Sentinel): installa insieme i quattro pacchetti nuovi. IGLOO toglie da solo la vecchia categoria del menu e LINCE sostituisce Mail Sentinel mantenendone i parametri.
 
-Su **Windows** ogni programma ha il suo `setup.exe`: si trova nel menu Start, cartella **Red Penguin OSINT Suite**.
+### 🪟 Windows
+
+Ogni programma ha il suo `setup.exe` nella pagina [**Releases**](../../releases/latest): `IGLOO-1.2.3-setup.exe`,
+`FALCO-1.7.4-setup.exe`, `LINCE-3.1.8-setup.exe`, `VARCO-1.0.6-setup.exe`. Dopo l'installazione li trovi nel menu Start,
+cartella **Red Penguin OSINT Suite**, con i documenti in «NOME - documenti». Installa per primo **IGLOO**.
+
+FALCO usa **Graphviz** per il grafo delle relazioni: va installato a parte da [graphviz.org](https://graphviz.org/download/).
+Senza, FALCO funziona e salta solo il grafo.
+
+> [!IMPORTANT]
+> **Avviso dell'antivirus.** Alcuni antivirus (per esempio **Avira**) possono segnalare come sospetti i `setup.exe` o i programmi
+> installati. È un **falso positivo** frequente con i programmi Python trasformati in eseguibile (PyInstaller) e non firmati
+> digitalmente: il codice è quello pubblicato qui, con licenza MIT. Prima di installare puoi confrontare l'impronta **SHA-256**
+> del file scaricato con quella indicata nella Release (`certutil -hashfile NOME-setup.exe SHA256` in un prompt dei comandi).
+> La segnalazione del falso positivo ad Avira è in corso.
 
 ---
 
@@ -150,7 +167,17 @@ Su **Windows** ogni programma ha il suo `setup.exe`: si trova nel menu Start, ca
 ## ⚖️ Uso lecito
 
 > [!WARNING]
-> Usa questi programmi solo su sistemi, indirizzi e dati di cui sei responsabile o per cui hai un'autorizzazione scritta. L'autore declina ogni responsabilità per un uso non corretto o illegale del software. Per il lavoro con i clienti verifica i termini dei servizi gratuiti (VirusTotal, XposedOrNot).
+> Usa questi programmi solo su sistemi, indirizzi e dati di cui sei responsabile o per cui hai un'autorizzazione scritta. L'autore declina ogni responsabilità per un uso non corretto o illegale del software.
+
+> [!NOTE]
+> **Servizi esterni e uso professionale.** I programmi sono gratuiti, ma i servizi che interrogano hanno regole proprie, e le
+> chiavi sono tue:
+> - **VirusTotal**: la chiave gratuita (API pubblica) è solo per uso non commerciale; per un servizio a pagamento o il lavoro per i
+>   clienti serve l'abbonamento premium di VirusTotal.
+> - **XposedOrNot**: l'API gratuita è per uso personale e a basso volume; l'uso commerciale dei dati richiede una licenza
+>   (piani xonAPI+).
+>
+> Senza queste chiavi, o lasciandole vuote in IGLOO, i programmi saltano quei servizi e funzionano con gli altri.
 
 ---
 
